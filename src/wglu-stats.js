@@ -339,7 +339,26 @@ var WGLUStats = (function() {
     defineCharacter("D", [1, 2, 4, 5, 6]);
     defineCharacter("E", [0, 1, 2, 4, 6]);
     defineCharacter("F", [0, 1, 3, 5]);
+    defineCharacter("G", [0, 1, 2, 3, 5, 6]); // same as 6
+    defineCharacter("H", [1, 2, 3, 4, 5, 6]);
+    defineCharacter("I", [3, 5]); // looks like 1, but somewhat distinguised by being on the left side
+    defineCharacter("J", [2, 4, 6]);
+    defineCharacter("K", [0, 1, 2, 3, 5]); // it's kind of a "k"
+    defineCharacter("L", [2, 3, 5]);
+    // "m" sucks
+    defineCharacter("N", [0, 3, 4, 5, 6]);
+    defineCharacter("O", [0, 2, 3, 4, 5, 6]); // same as 0
     defineCharacter("P", [0, 1, 3, 4, 5]);
+    defineCharacter("Q", [0, 1, 3, 4, 6]);
+    defineCharacter("R", [1, 5]);
+    defineCharacter("S", [0, 1, 2, 3, 6]); // same as 5
+    defineCharacter("T", [0, 3, 5]); // a poor man's "T"
+    defineCharacter("U", [2, 5, 6]); // lower case, to distinguish from...
+    defineCharacter("V", [2, 3, 4, 5, 6]); // a poor man's "V"
+    // "w" sucks
+    defineCharacter("X", [1, 2, 3, 4, 5, 6]); // i tire of this pointless exercise
+    defineCharacter("Y", [1, 2, 3, 4, 6]);
+    defineCharacter("Z", [0, 1, 2, 4, 5]); // same as 2
     defineCharacter("-", [1]);
     defineCharacter(" ", []);
     defineCharacter("_", [2]); // Used for undefined characters
